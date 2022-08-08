@@ -1,0 +1,1000 @@
+  682  cd immutablex/
+  683  git pull --help
+  684  git submodule update --init --recursive
+  685  ls
+  686  docker-compose up api
+  687  git branch
+  688  cd ../
+  689  ls
+  690  cd Shoaib/
+  691  ls
+  692  cd database/
+  693  ls
+  694  docker-compose down
+  695  docker-compose up -d
+  696  cd ../../
+  697  cd SVNGS/
+  698  ls
+  699  git add .
+  700  git commit -m "Updated to new logos"
+  701  git push
+  702  cd ..
+  703  ls
+  704  cd immutablex/
+  705  ls
+  706  git branch
+  707  git pull
+  708  git clone url --recursive
+  709  ls
+  710  git pull --recurse-submodules
+  711  git pull --recurse-submodules -b git pull --recurse-submodules
+  712  git pull --recurse-submodules -b feature/NFTESPO-587-implement-frontend-callback-for-admin-oauth-workflow
+  713  git pull --recurse-submodules --branch=feature/NFTESPO-587-implement-frontend-callback-for-admin-oauth-workflow
+  714  git submodule update
+  715  cd ui/
+  716  ls
+  717  cd esl-marketplace/
+  718  ls -a
+  719  git checkout feature/NFTESPO-587-implement-frontend-callback-for-admin-oauth-workflow
+  720  git pull
+  721  ls
+  722  cd ../../
+  723  code .
+  724  docker-compose up -d
+  725  docker-compose up --build
+  726  ls
+  727  docker ps -a
+  728  ls
+  729  cd SVNGS/
+  730  ls
+  731  git add .
+  732  git commit -m "Workflow changes as requested by SVNGS team"
+  733  git push
+  734  cd ..
+  735  ls
+  736  mkdir sendgridbranch
+  737  cd sendgridbranch
+  738  ls
+  739  git clone https://git.t-systems-mms.com/scm/nftespo/immutablex.git --branch=send-grid-demo
+  740  ls
+  741  cd immutablex/
+  742  ls -a
+  743  cd ..
+  744  ls
+  745  git add .
+  746  git commit -m "demo app for sendgrid test"
+  747  git push
+  748  ls
+  749  npm start
+  750  ls
+  751  npm rum index.js
+  752  ls
+  753  node index.js
+  754  code 
+  755  code .
+  756  node index.js
+  757  git branch
+  758  git add .
+  759  git commit -m "added demo account details"
+  760  git push
+  761  cd ..
+  762  ls
+  763  cd immutablex/
+  764  ls
+  765  git branch
+  766  git fetch
+  767  git branch -a
+  768  git branch -r
+  769  git checkout feature/NFTESPO-535-admin-login-oauth-with-nginx
+  770  git stash
+  771  git checkout feature/NFTESPO-535-admin-login-oauth-with-nginx
+  772  git pull
+  773  code .
+  774  ls -a
+  775  docker ps -a
+  776  docker rm -f $(docker ps -aq)
+  777  docker-compose up --build
+  778  ping google.com
+  779  sudo docker-compose up --build
+  780  docker ps -a
+  781  docker rm -f $(docker ps -aq)
+  782  docker volume prune
+  783  docker network prune
+  784  sudo docker-compose up --build
+  785  cd immutablex/
+  786  sudo docker-compose up --build
+  787  cd immutablex/
+  788  sudo docker-compose up --build
+  789  cd immutablex/
+  790  sudo docker-compose up --build
+  791  ping google.com
+  792  apt update
+  793  sudo apt update
+  794  sudo docker-compose up --build
+  795  cd immutablex/
+  796  ls
+  797  sudo docker-compose up --build
+  798  sudo docker-compose down -v
+  799  sudo docker-compose up --build
+  800  cd immutablex/
+  801  code .
+  802  docker ps -a
+  803  cd immutablex/
+  804  sudo docker-compose up --build
+  805  cd Shoaib/
+  806  cd database/
+  807  docker-compose up
+  808  ifconfig
+  809  docker ps -a
+  810  docker logs immutablex_minter_1
+  811  ls -l ~/.ssh/id_*.pub
+  812  ssh-keygen -t rsa -b 4096 -C "mujtaba.idrees@t-systems.com"
+  813  ls -l ~/.ssh/id_*.pub
+  814  sudo ls -l ~/.ssh/id_*.pub
+  815  cd /home/mujtaba/.ssh/
+  816  ls
+  817  ls -a
+  818  cd ~
+  819  ls
+  820  mv mujtaba-key /home/mujtaba/.ssh
+  821  mv mujtaba-key.pub /home/mujtaba/.ssh
+  822  ls -l ~/.ssh/id_*.pub
+  823  ls -a
+  824  cd /home/mujtaba/.ssh
+  825  ls
+  826  cat mujtaba-key.pub
+  827  mv mujtaba-key id_rsa
+  828  mv mujtaba-key.pub id_rsa.pub
+  829  ls
+  830  cd ~
+  831  ls
+  832  cd immutablex/
+  833  ls
+  834  git branch
+  835  git pull
+  836  cd ..
+  837  ls
+  838  mkdir cosmosdb-local
+  839  cd cosmosdb-local/
+  840  ls
+  841  docker pull mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+  842  docker run -p 8081:8081 -p 10251:10251 -p 10252:10252 -p 10253:10253 -p 10254:10254  -m 3g --cpus=2.0 --name=test-linux-emulator -e AZURE_COSMOS_EMULATOR_PARTITION_COUNT=10 -e AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true -e AZURE_COSMOS_EMULATOR_IP_ADDRESS_OVERRIDE=$ipaddr -v ./:/ -it mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+  843  cd ..
+  844  docker run -p 8081:8081 -p 10251:10251 -p 10252:10252 -p 10253:10253 -p 10254:10254  -m 3g --cpus=2.0 --name=test-linux-emulator -e AZURE_COSMOS_EMULATOR_PARTITION_COUNT=10 -e AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true -e AZURE_COSMOS_EMULATOR_IP_ADDRESS_OVERRIDE=$ipaddr -v cosmosdb-local:/ -it mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+  845  docker run -p 8081:8081 -p 10251:10251 -p 10252:10252 -p 10253:10253 -p 10254:10254  -m 3g --cpus=2.0 --name=test-linux-emulator -e AZURE_COSMOS_EMULATOR_PARTITION_COUNT=10 -e AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true -e AZURE_COSMOS_EMULATOR_IP_ADDRESS_OVERRIDE=$ipaddr -v cosmosdb-local:./ -it mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+  846  docker run -p 8081:8081 -p 10251:10251 -p 10252:10252 -p 10253:10253 -p 10254:10254  -m 3g --cpus=2.0 --name=test-linux-emulator -e AZURE_COSMOS_EMULATOR_PARTITION_COUNT=10 -e AZURE_COSMOS_EMULATOR_ENABLE_DATA_PERSISTENCE=true -e AZURE_COSMOS_EMULATOR_IP_ADDRESS_OVERRIDE=$ipaddr -it mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator
+  847  ls
+  848  cd immutablex/
+  849  ls
+  850  docker-compose up --build -d
+  851  docker ps -a
+  852  docker system prune 
+  853  docker ps
+  854  code .
+  855  docker-compose down
+  856  docker-compose up --build -d
+  857  docker ps
+  858  docker-compose down
+  859  docker-compose up --build -d
+  860  docker ps -a
+  861  docker logs immutablex_minter_1
+  862  docker logs immutablex_userapi_1
+  863  docker ps -a
+  864  docker logs immutablex_minter_1
+  865  docker logs immutablex_userapi_1
+  866  docker ps
+  867  docker logs immutablex_db_1
+  868  docker-compose down
+  869  docker-compose up --build -d
+  870  docker ps
+  871  docker logs immutablex_minter_1
+  872  more /home/mujtaba/.ssh/id_rsa
+  873  [3:17 PM] Zhu, Tianlei
+  874  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  875  ssh ubuntu@80.158.61.48
+  876  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  877  docker ps
+  878  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  879  ssh -v
+  880  ssh --version
+  881  ssh
+  882  ssh -V
+  883  sudp apt get update
+  884  sudp apt-get update
+  885  sudo apt-get update
+  886  ssh -V
+  887  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  888  ssh -g -L 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  889  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  890  ls
+  891  cd immutablex/
+  892  ls
+  893  git branch -a
+  894  git checkout [5:27 PM] Khalid, Asad Ullah
+  895  NFTESPO-843-modify-sage-service-for-reveal-pack
+  896  git checkout NFTESPO-843-modify-sage-service-for-reveal-pack
+  897  git fetch
+  898  git checkout [5:27 PM] Khalid, Asad Ullah
+  899  NFTESPO-843-modify-sage-service-for-reveal-pack
+  900  git checkout NFTESPO-843-modify-sage-service-for-reveal-pack
+  901  git branch
+  902  git checkout feature/NFTESPO-843-modify-sage-service-for-reveal-pack
+  903  git branch
+  904  git pull
+  905  ls 
+  906  docker-compose up --build
+  907  ls
+  908  cd starkxsigner/
+  909  ls
+  910  git branch -a
+  911  ls
+  912  git branch
+  913  ls -a
+  914  cd ..
+  915  git branch
+  916  git fetch
+  917  ls
+  918  cd starkxsigner/
+  919  ls
+  920  ls -a
+  921  git pull
+  922  cd ..
+  923  git branch -a
+  924  git checkout develop
+  925  git branch
+  926  git pull
+  927  ls
+  928  cd starkxsigner/
+  929  ls
+  930  ls -a
+  931  cd ..
+  932  git pull --recurse-submodules
+  933  code .
+  934  ls -a
+  935  docker-compose up --build
+  936  ls
+  937  cd starkxsigner/
+  938  ls
+  939  ls -a
+  940  cd ..
+  941  git branch -a
+  942  git branch
+  943  cd starkxsigner/
+  944  ls
+  945  [5:36 PM] Khalid, Asad Ullah
+  946  git submodule update --init --recursive
+  947  ls
+  948  cd ..
+  949  cd starkxsigner/
+  950  git branch -a
+  951  git checkout origin/denystarkderivationsig
+  952  git branch 
+  953  git status
+  954  cd ..
+  955  docker-compose up --build
+  956  docker-compose down -v
+  957  docker-compose up --build
+  958  ls
+  959  docker ps
+  960  docker logs immutablex_minter_1
+  961  docker-compose down 
+  962  docker-compose up --build -d
+  963  docker ps
+  964  docker logs immutablex_minter_1
+  965  docker logs immutablex_minter_1 -f
+  966  clear
+  967  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  968  ping google.com
+  969  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  970  clear
+  971  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  972  clear
+  973  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  974  clear
+  975  ssh -g -N -R 0.0.0.0:10000:localhost:10001 ubuntu@80.158.61.48
+  976  ssh -g -N -R 0.0.0.0:10010:localhost:10001 ubuntu@80.158.61.48
+  977  history
+  978  grep 'git' | $history
+  979  grep git | $history
+  980  grep
+  981  grep --help
+  982  grep 'git' $(history)
+  983  history | grep 'git'
+  984  history | grep 'git push'
+  985  history | grep 'git commit'
+  986  history | grep 'git push'
+  987  cd immutablex
+  988  ls
+  989  ssh -g -N -R 0.0.0.0:10011:localhost:10001 ubuntu@80.158.61.48
+  990  docker logs immutablex_api_1
+  991  docker ps
+  992  ls
+  993  cd immutablex/
+  994  ls
+  995  docker-compose down
+  996  sudo docker-compose up --build
+  997  docker-compose up --build -d
+  998  docker ps
+  999  docker logs immutablex_minter_1 
+ 1000  docker logs immutablex_salesman_1 -f
+ 1001  docker-compose down
+ 1002  docker-compose up --build -d
+ 1003  docker-compose ps 
+ 1004  docker logs immutablex_minter_1
+ 1005  docker ps
+ 1006  docker logs immutablex_sage_1
+ 1007  docker logs immutablex_sage_1 -f
+ 1008  docker logs immutablex_sage_1
+ 1009  docker-compose down
+ 1010  cd ..
+ 1011  ls
+ 1012  git clone --recurse-submodules --remote-submodules https://git.t-systems-mms.com/scm/nftespo/immutablex.git
+ 1013  ls
+ 1014  cd immutablex
+ 1015  ls
+ 1016  git branch
+ 1017  git branch -a
+ 1018  git checkout feature/NFTESPO-843-modify-sage-service-for-reveal-pack
+ 1019  git branch
+ 1020  ls
+ 1021  cd starkxsigner/
+ 1022  ls
+ 1023  git branch -a
+ 1024  git checkout origin/denystarkderivationsig
+ 1025  git branch
+ 1026  cd ..
+ 1027  ls -a
+ 1028  cd ..
+ 1029  cd immutablex-localdb/
+ 1030  ls
+ 1031  ls -a
+ 1032  cd ..
+ 1033  cp immutablex-localdb/.env immutablex/.env
+ 1034  cd immutablex
+ 1035  ls
+ 1036  ls -a
+ 1037  code .
+ 1038  docker-compose up --build -d
+ 1039  docker ps
+ 1040  docker-compose down -v
+ 1041  docker-compose up --build -d
+ 1042  code .
+ 1043  docker-compose down
+ 1044  docker-compose up --build -d
+ 1045  docker ps -a
+ 1046  docker logs immutablex_userapi_1 
+ 1047  docker-compose down
+ 1048  docker-compose up --build -d
+ 1049  docker logs immutablex_userapi_1 
+ 1050  docker-compose down
+ 1051  docker-compose up --build -d
+ 1052  docker logs immutablex_minter_1
+ 1053  docker-compose down
+ 1054  docker-compose up --build -d
+ 1055  docker logs immutablex_minter_1
+ 1056  docker logs immutablex_minter_1 -f
+ 1057  docker ps -a
+ 1058  docker logs immutablex_minter_1
+ 1059  docker logs immutablex_minter_1 -f
+ 1060  docker rm -f immutablex_minter_1
+ 1061  docker-compose up --build -d
+ 1062  docker logs immutablex_minter_1
+ 1063  docker logs immutablex_minter_1 -f
+ 1064  docker logs immutablex_sage_1 -f
+ 1065  docker rm -f immutablex_sage_1
+ 1066  docker-compose up --build -d
+ 1067  docker logs immutablex_sage_1 -f
+ 1068  docker rm -f immutablex_sage_1
+ 1069  docker-compose up --build -d
+ 1070  docker logs immutablex_sage_1 -f
+ 1071  docker rm -f immutablex_sage_1
+ 1072  docker-compose up --build -d
+ 1073  docker logs immutablex_sage_1 -f
+ 1074  ifconfig
+ 1075  docker-compose down
+ 1076  docker-compose up --build -d
+ 1077  docker-compose down
+ 1078  docker-compose up --build -d
+ 1079  docker logs immutablex_api_1
+ 1080  docker logs immutablex_userapi_1 
+ 1081  docker-compose down
+ 1082  docker-compose up --build -d
+ 1083  docker-compose down
+ 1084  docker-compose up --build -d
+ 1085  docker ps 
+ 1086  docker rm -f immutablex_userapi_1
+ 1087  docker-compose up --build -d
+ 1088  docker rm -f immutablex_userapi_1
+ 1089  docker-compose up --build -d
+ 1090  docker rm -f immutablex_userapi_1
+ 1091  docker-compose up --build -d
+ 1092  docker rm -f immutablex_userapi_1
+ 1093  docker-compose up --build -d
+ 1094  docker rm -f immutablex_userapi_1
+ 1095  docker-compose up --build -d
+ 1096  docker logs immutablex_userapi_1
+ 1097  docker rm -f immutablex_userapi_1
+ 1098  docker-compose up --build -d
+ 1099  docker rm -f immutablex_userapi_1
+ 1100  docker-compose up --build -d
+ 1101  docker rm -f immutablex_userapi_1
+ 1102  docker-compose up --build -d
+ 1103  docker rm -f immutablex_userapi_1
+ 1104  docker-compose up --build -d
+ 1105  docker rm -f immutablex_userapi_1
+ 1106  docker-compose up --build -d
+ 1107  docker logs immutablex_userapi_1
+ 1108  docker rm -f immutablex_userapi_1
+ 1109  docker logs immutablex_userapi_1
+ 1110  docker-compose up --build -d
+ 1111  docker logs immutablex_userapi_1
+ 1112  docker rm -f immutablex_userapi_1
+ 1113  docker-compose up --build -d
+ 1114  docker rm -f immutablex_userapi_1
+ 1115  docker-compose up --build -d
+ 1116  docker rm -f immutablex_userapi_1
+ 1117  docker-compose up --build -d
+ 1118  docker rm -f immutablex_userapi_1
+ 1119  docker-compose up --build -d
+ 1120  docker rm -f immutablex_api_1
+ 1121  docker-compose up --build -d
+ 1122  docker-compose down
+ 1123  docker-compose up --build -d
+ 1124  docker logs immutablex_api_1
+ 1125  docker logs immutablex_minter_1
+ 1126  docker logs immutablex_minter_1 -f
+ 1127  docker logs immutablex_sage_1 -f
+ 1128  docker rm -f immutablex_sage_1
+ 1129  docker-compose up --build -d
+ 1130  docker logs immutablex_sage_1 -f
+ 1131  docker-compose down -c
+ 1132  docker-compose dow
+ 1133  docker-compose up --build -d
+ 1134  docker rm -f immutablex_userapi_1
+ 1135  docker-compose up --build -d
+ 1136  docker rm -f immutablex_userapi_1
+ 1137  docker-compose up --build -d
+ 1138  docker logs immutablex_userapi_1
+ 1139  docker rm -f immutablex_userapi_1
+ 1140  docker-compose up --build -d
+ 1141  docker rm -f immutablex_userapi_1
+ 1142  docker-compose up --build -d
+ 1143  docker rm -f immutablex_userapi_1
+ 1144  docker-compose up --build -d
+ 1145  docker rm -f immutablex_userapi_1
+ 1146  docker-compose up --build -d
+ 1147  docker rm -f immutablex_userapi_1
+ 1148  docker-compose up --build -d
+ 1149  docker rm -f immutablex_userapi_1
+ 1150  docker-compose up --build -d
+ 1151  docker rm -f immutablex_userapi_1
+ 1152  docker-compose up --build -d
+ 1153  docker rm -f immutablex_userapi_1
+ 1154  docker-compose up --build -d
+ 1155  docker logs immutablex_api_1
+ 1156  docker logs immutablex_userapi_1
+ 1157  docker rm -f immutablex_userapi_1
+ 1158  docker-compose up --build -d
+ 1159  docker-compose down
+ 1160  docker-compose up --build -d
+ 1161  docker logs immutablex_minter_1
+ 1162  docker logs immutablex_salesman_1
+ 1163  docker logs immutablex_salesman_1 -f
+ 1164  docker logs immutablex_sage_1
+ 1165  docker-compose down
+ 1166  docker-compose up --build -d
+ 1167  docker-compose down
+ 1168  clear
+ 1169  docker-compose down
+ 1170  docker-compose up --build -d
+ 1171  docker ps
+ 1172  docker logs immutablex_sage_1
+ 1173  clear
+ 1174  docker-compose down
+ 1175  docker-compose up --build -d
+ 1176  docker-compose down
+ 1177  docker-compose up --build -d
+ 1178  docker logs immutablex_sage_1
+ 1179  docker-compose down
+ 1180  docker ps
+ 1181  cd ..
+ 1182  ls
+ 1183  cd immutablex-localdb/
+ 1184  ls
+ 1185  git branch
+ 1186  git fetch
+ 1187  git branch -a
+ 1188  git checkout feature/NFTESPO-479-add-expiry-date
+ 1189  code .
+ 1190  git branch
+ 1191  cd ../immutablex
+ 1192  ls
+ 1193  code .
+ 1194  git branch
+ 1195  git fetch
+ 1196  git branch
+ 1197  git checkout feature/NFTESPO-479-add-expiry-date
+ 1198  git stash
+ 1199  git checkout feature/NFTESPO-479-add-expiry-date
+ 1200  code .
+ 1201  git branch
+ 1202  code .
+ 1203  git branch
+ 1204  docker-compose up -d --build
+ 1205  docker ps -a
+ 1206  docker logs immutablex_minter_1
+ 1207  docker-compose down
+ 1208  docker-compose up -d --build
+ 1209  docker ps -a
+ 1210  git branch
+ 1211  docker logs immutablex_minter_1
+ 1212  docker-compose down
+ 1213  docker-compose up -d --build
+ 1214  docker logs immutablex_minter_1
+ 1215  docker-compose down
+ 1216  docker-compose up -d --build
+ 1217  docker logs immutablex_minter_1
+ 1218  docker logs immutablex_minter_1 -f
+ 1219  docker logs immutablex_salesman_1 -f
+ 1220  docker-compose down
+ 1221  docker-compose up -d --build
+ 1222  docker logs immutablex_salesman_1 -f
+ 1223  docker volumes
+ 1224  docker volume ls
+ 1225  docker inspect immutablex_mongodb_data_container
+ 1226  cd /var/lib/docker/volumes/immutablex_mongodb_data_container/
+ 1227  sudo cd /var/lib/docker/volumes/immutablex_mongodb_data_container/
+ 1228  sudo cd /var/lib/docker/volumes/
+ 1229  cd /var/lib/
+ 1230  ls
+ 1231  cd docker/
+ 1232  chmod +x docker
+ 1233  sudo chmod +x docker
+ 1234  ls
+ 1235  cd docker/
+ 1236  ls
+ 1237  cd ..
+ 1238  sudo chmod +x -R docker
+ 1239  cd /home/mujtaba/immutablex
+ 1240  ls
+ 1241  git branch
+ 1242  cd /var/lib/docker/
+ 1243  ls
+ 1244  sudo ls
+ 1245  sudo chmod +x volumes
+ 1246  cd volumes
+ 1247  ls
+ 1248  sudo ls
+ 1249  sudo cp immutablex_mongodb_data_container /home/mujtaba
+ 1250  sudo cp -rf immutablex_mongodb_data_container /home/mujtaba
+ 1251  cd /home/mujtaba/
+ 1252  ls
+ 1253  sudo chmod +x immutablex_mongodb_data_container
+ 1254  ls
+ 1255  cd immutablex_mongodb_data_container/
+ 1256  ls
+ 1257  sudo ls
+ 1258  cd ..
+ 1259  cd immutablex_mongodb_data_container/
+ 1260  sudo chmod +x _data
+ 1261  ls
+ 1262  sudo ls
+ 1263  cd ..
+ 1264  cd immutablex_mongodb_data_container/
+ 1265  ls
+ 1266  chmod +x .
+ 1267  sudo chmod +x .
+ 1268  ls
+ 1269  sudo ls
+ 1270  cd /home/
+ 1271  cd mujtaba/
+ 1272  ls
+ 1273  docker ps
+ 1274  docker exec -it f727
+ 1275  docker exec -it f727 bash
+ 1276  docker cp f727:/mongodump .
+ 1277  ls
+ 1278  cd mongodump/
+ 1279  ls
+ 1280  docker-compose down
+ 1281  cd ..
+ 1282  cd immutablex
+ 1283  ls
+ 1284  git branch
+ 1285  docker-compose down
+ 1286  ping https://registry.npmjs.org/
+ 1287  ping https://registry.npmjs.org
+ 1288  ping google.com
+ 1289  ping https://registry.npmjs.org
+ 1290  nslookup google.com
+ 1291  cd /etc/
+ 1292  ls
+ 1293  more resolv.conf
+ 1294  sudo nano resolv.conf
+ 1295  ping https://registry.npmjs.org
+ 1296  more resolv.conf
+ 1297  sudo nano resolv.conf
+ 1298  ping https://registry.npmjs.org
+ 1299  npm install --registry=https://registry.npmjs.org/ 
+ 1300  sudo npm install --registry=https://registry.npmjs.org/ 
+ 1301  sudo npm cache clean -f
+ 1302  sudo npm install -g n
+ 1303  sudo n stable
+ 1304  node --version
+ 1305  ping https://registry.npmjs.org
+ 1306  clear
+ 1307  more resolv.conf
+ 1308  sudo nano resolv.conf
+ 1309  more resolv.conf
+ 1310  ping google.com
+ 1311  ping https://registry.npmjs.org
+ 1312  cd immutablex
+ 1313  ls
+ 1314  git branch
+ 1315  code .
+ 1316  cd ..
+ 1317  ls
+ 1318  rm -rf immutablex_mongodb_data_container
+ 1319  sudo rm -rf immutablex_mongodb_data_container
+ 1320  ls
+ 1321  cd immutablex-localdb/
+ 1322  ls
+ 1323  git branch
+ 1324  code .
+ 1325  cd ../immutablex
+ 1326  ls
+ 1327  git branch
+ 1328  git fetch
+ 1329  ls
+ 1330  git pull
+ 1331  ls
+ 1332  cd ui/
+ 1333  ls
+ 1334  cd esl-marketplace/
+ 1335  ls
+ 1336  ls -a
+ 1337  git pull
+ 1338  git branch -a
+ 1339  git checkout master
+ 1340  git checkout origin/master
+ 1341  git pull
+ 1342  git stash
+ 1343  git pull
+ 1344  git pull origin/master
+ 1345  git pull origin master
+ 1346  git branch
+ 1347  ls
+ 1348  cd ..
+ 1349  ls
+ 1350  cd ..
+ 1351  code .
+ 1352  docker-compose down -v
+ 1353  docker-compose up --build -d
+ 1354  ls
+ 1355  cd ui/
+ 1356  ls
+ 1357  cd esl-marketplace/
+ 1358  ls
+ 1359  git branch -a
+ 1360  git checkout origin/feature/NFTESPO-718-2
+ 1361  git branch
+ 1362  git pull
+ 1363  git checkout origin/feature/NFTESPO-718-2
+ 1364  git pull origin/feature/NFTESPO-718-2
+ 1365  git pull remote origin/feature/NFTESPO-718-2
+ 1366  git pull origin feature/NFTESPO-718-2
+ 1367  cd ..
+ 1368  docker-compose up --build -d
+ 1369  cd ..
+ 1370  cd immutablex
+ 1371  git submodule update --init --recursive
+ 1372  docker-compose up --build -d
+ 1373  ping google.com
+ 1374  docker-compose up --build -d
+ 1375  cat /etc/hosts
+ 1376  sudo nano /etc/hosts
+ 1377  sudo nano /etc/docker/daemon.json
+ 1378  cd /etc/docker/
+ 1379  ls
+ 1380  more daemon.json
+ 1381  sudo systemctl stop docker
+ 1382  sudo systemctl start docker
+ 1383  docker ps
+ 1384  cd ~/immutablex
+ 1385  ls
+ 1386  docker-compose up --build -d
+ 1387  docker-compose down
+ 1388  cd ...
+ 1389  cd ..
+ 1390  clear
+ 1391  mkdir lissi-cert
+ 1392  cd lissi-cert/
+ 1393  ls
+ 1394  git clone https://git.t-systems-mms.com/scm/ssi/lissi-deployment.git
+ 1395  ls
+ 1396  cd lissi-deployment/
+ 1397  ls
+ 1398  cd app/client/
+ 1399  ls
+ 1400  cd letsencrypt/
+ 1401  ls
+ 1402  docker-compose up -d
+ 1403  docker ps
+ 1404  ls
+ 1405  ./create-cert-staging.sh
+ 1406  code .
+ 1407  pwd
+ 1408  sudo apt-get install mkchromecast
+ 1409  apt install mkchromecast
+ 1410  sudo apt install mkchromecast
+ 1411  mkchromecast
+ 1412  mkchromecast -t
+ 1413  mkchromecast -h
+ 1414  docker ps
+ 1415  ls
+ 1416  cd BPA_MMS/
+ 1417  ls
+ 1418  code .
+ 1419  cd ..
+ 1420  sudo apt install libz3-dev
+ 1421  docker build -t warp .
+ 1422  docker ps -a
+ 1423  ls
+ 1424  git clone https://github.com/NethermindEth/warp.git
+ 1425  ls
+ 1426  cd wrap
+ 1427  cd warp/
+ 1428  ls
+ 1429  docker build -t warp .
+ 1430  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile
+ 1431  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol
+ 1432  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol --compile-cairo
+ 1433  ls
+ 1434  ls -a
+ 1435  docker ps -a
+ 1436  docker ps
+ 1437  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol --compile-cairo
+ 1438  ls
+ 1439  cd src
+ 1440  ls
+ 1441  cd ..
+ 1442  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) 
+ 1443  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp
+ 1444  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp -it
+ 1445  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -it warp 
+ 1446  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -dit warp 
+ 1447  docker ps
+ 1448  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -it --entrypoint=/bin/bash warp  
+ 1449  code .
+ 1450  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -it --entrypoint=/bin/bash warp  
+ 1451  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile
+ 1452  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol -h
+ 1453  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol --compile-cairo --output-dir 
+ 1454  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol --compile-cairo --output-dir .
+ 1455  ls
+ 1456  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo --network alpha-goerli
+ 1457  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy test.json --network alpha-goerli
+ 1458  cd ..
+ 1459  clear
+ 1460  sudo snap install intellij-idea-community --classic
+ 1461  mkdir EUDI
+ 1462  cd EUDI
+ 1463  git clone https://gitlab.devops.telekom.de/self-sovereign_identity/eudi-wallet/wallet-kit.git
+ 1464  [3:55 PM] Zhu, Tianlei
+ 1465  git config --global credential.helper store
+ 1466  git fetch
+ 1467  cd wallet-kit/
+ 1468  ls
+ 1469  git config --global credential.helper store
+ 1470  git fetch
+ 1471  git -v
+ 1472  git --version
+ 1473  sudo apt-get update
+ 1474  git --version
+ 1475  git update
+ 1476  sudo add-apt-repository -y ppa:git-core/ppa
+ 1477  sudo apt-get update
+ 1478  sudo apt-get install git -y
+ 1479  git --version
+ 1480  git config --global credential.helper store
+ 1481  git config --global credential.helper store
+ 1482  git fetch
+ 1483  git branch -r
+ 1484  git checkout feature/we-need-debugger
+ 1485  git branch
+ 1486  ls
+ 1487  cd docker/
+ 1488  ls
+ 1489  docker-compose up -d --build
+ 1490  clear
+ 1491  docker-compose up -d --build
+ 1492  docker login registry.devops.telekom.de -u mujtaba.idrees@t-systems.com -p glpat-6hRrychaw5zJMmSKvxMz
+ 1493  docker-compose up -d
+ 1494  docker exec -it cli-container bash
+ 1495  cd ../../..
+ 1496  ls
+ 1497  cd warp/
+ 1498  ls
+ 1499  cd example__contracts/
+ 1500  ls
+ 1501  history
+ 1502  cd ..
+ 1503  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.json --network alpha-goerli
+ 1504  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -it --entrypoint=/bin/bash warp
+ 1505  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP_compiled --network alpha-goerli
+ 1506  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP_compiled.json --network alpha-goerli
+ 1507  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP_abi.json --network alpha-goerli
+ 1508  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo --network alpha-goerli
+ 1509  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo
+ 1510  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo --network alpha-mainnet
+ 1511  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) -it --entrypoint=/bin/bash warp
+ 1512  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example_contracts/ERC20.sol
+ 1513  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp transpile example_contracts/ERC20.sol
+ 1514  ls
+ 1515  cd example__contracts/
+ 1516  ls
+ 1517  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo --network alpha-goerli
+ 1518  exit
+ 1519  ls
+ 1520  cd warp/
+ 1521  ls
+ 1522  docker run --rm -v $PWD:/dapp --user $(id -u):$(id -g) warp deploy example__contracts/ERC20__WC__WARP.cairo --network alpha-goerli
+ 1523  history
+ 1524  cd ..
+ 1525  cd ZK\ Bootcamp/
+ 1526  cd ..
+ 1527  cd ZK-Bootcamp/
+ 1528  ls
+ 1529  curl -L https://raw.githubusercontent.com/software-mansion/
+ 1530  curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | bash
+ 1531  ls
+ 1532  ls -a
+ 1533  exit
+ 1534  ls
+ 1535  cd ZK-Bootcamp/
+ 1536  ls
+ 1537  protostar -v
+ 1538  mkdir Cairo
+ 1539  cd Cairo/
+ 1540  protostar init
+ 1541  ls
+ 1542  cd ~/ZK-Bootcamp/Cairo/
+ 1543  ls
+ 1544  git status
+ 1545  git branch
+ 1546  git branch -a
+ 1547  cd ..
+ 1548  cd cairo/
+ 1549  ls
+ 1550  more protostar.toml
+ 1551  code .
+ 1552  virtualenv .env
+ 1553  sudo apt install python3-virtualenv
+ 1554  source .env/bin/activate
+ 1555  source env/bin/activate
+ 1556  ls
+ 1557  code .
+ 1558  cd /home/mujtaba/
+ 1559  ls
+ 1560  python -v
+ 1561  pythone -v
+ 1562  python3 -v
+ 1563  python3 --version
+ 1564  python3 -m venv ~/cairo_venv
+ 1565  sudo apt install python3.8-venv
+ 1566  python3 -m venv ~/cairo_venv
+ 1567  source ~/cairo_venv/bin/activate
+ 1568  sudo apt install -y libgmp3-dev
+ 1569  pip3 install ecdsa fastecdsa sympy
+ 1570  pip3 install cairo-lang
+ 1571  ls
+ 1572  cd ZK-Bootcamp/
+ 1573  ls
+ 1574  pip3 install cairo-lang-0.9.1.zip
+ 1575  code .
+ 1576  ls
+ 1577  cd cairo/
+ 1578  ls
+ 1579  protostar build
+ 1580  cd ..
+ 1581  ls
+ 1582  cd warp/
+ 1583  ls
+ 1584  protostar deploy example__contracts/ERC20__WC__WARP_compiled.json --network alpha-goerli
+ 1585  code .
+ 1586  cd ..
+ 1587  ls
+ 1588  cd cairo/
+ 1589  ls
+ 1590  code .
+ 1591  docker run -itv $(pwd)/data:/app/data -p 192.168.0.1:7000-7003:7000-7003 ssikit serve --help
+ 1592  docker run -itv $(pwd)/data:/app/data -p localhost:7000-7003:7000-7003 waltid/ssikit serve --help
+ 1593  docker run -itv $(pwd)/data:/app/data -p 0.0.0.0:7000-7003:7000-7003 waltid/ssikit serve --help
+ 1594  docker run -itv $(pwd)/data:/app/data -p 0.0.0.0:7000-7003:7000-7003 waltid/ssikit serve
+ 1595  docker run -itv $(pwd)/data:/app/data -p 0.0.0.0:7000-7003:7000-7003 waltid/ssikit serve -b 0.0.0.0
+ 1596  docker ps -a
+ 1597  docker rm -f 
+ 1598  docker rm -f $(docker ps -aq)
+ 1599  ls
+ 1600  cd ZK-Bootcamp/
+ 1601  ls
+ 1602  git clone https://github.com/ExtropyIO/zkpBootcampJuly.git
+ 1603  https://github.com/mujtabaidrees94/zkpBootcampJulySolved.git
+ 1604  git clone https://github.com/mujtabaidrees94/zkpBootcampJulySolved.git
+ 1605  ls
+ 1606  cd zkpBootcampJulySolved/
+ 1607  ls
+ 1608  code .
+ 1609  ls
+ 1610  python3 main.py
+ 1611  ls
+ 1612  protostar -v
+ 1613  cd ..
+ 1614  ls
+ 1615  cd cairo/
+ 1616  ls
+ 1617  protostar init
+ 1618  history
+ 1619  history | grep 'protostar'
+ 1620  history | grep 'curl'
+ 1621  curl -L https://raw.githubusercontent.com/softwaremansion/protostar/master/install.sh | bash
+ 1622  ls
+ 1623  curl -L https://raw.githubusercontent.com/softwaremansion/protostar/master/install.sh
+ 1624  ls -a
+ 1625  cd ..
+ 1626  ls
+ 1627  curl -L https://raw.githubusercontent.com/softwaremansion/protostar/master/install.sh | bash
+ 1628  cd ..
+ 1629  protostar
+ 1630  cd ZK-Bootcamp/
+ 1631  ls
+ 1632  cd warp/
+ 1633  ls
+ 1634  protostar
+ 1635  cd ..
+ 1636  ls
+ 1637  curl -L https://raw.githubusercontent.com/softwaremansion/protostar/master/install.sh | bash
+ 1638  curl -L https://raw.githubusercontent.com/softwaremansion/protostar/master
+ 1639  curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | bash
+ 1640  protostar -h
+ 1641  protostar --help
+ 1642  exit
+ 1643  protostar -f
+ 1644  protostar -h
+ 1645  cd ZK-Bootcamp/
+ 1646  ls
+ 1647  cd zkpBootcampJulySolved/
+ 1648  ls
+ 1649  python main.py
+ 1650  python3 main.py
+ 1651  git add .
+ 1652  git commit -m "ex 1"
+ 1653  git push
+ 1654  python3 main.py
+ 1655  cd ..
+ 1656  ls
+ 1657  cd zkpBootcampJuly
+ 1658  ls
+ 1659  cd ..
+ 1660  cd zkpBootcampJulySolved/
+ 1661  ls
+ 1662  more main.py
+ 1663  ls
+ 1664  python3 main.py
+ 1665  protostar test test/test_ex2.cairo
+ 1666  python3 main.py
+ 1667  protostar test test/test_ex1.cairo
+ 1668  protostar test test/test_ex2.cairo
+ 1669  protostar test test/test_ex3.cairo
+ 1670  git add .
+ 1671  git commit -m "Ex 2 and 3"
+ 1672  git push
+ 1673  protostar test test/test_ex4.cairo
+ 1674  git add .
+ 1675  git commit -m "Ex 4"
+ 1676  git push
+ 1677  protostar test test/test_ex5.cairo 
+ 1678  history
+ 1679  history grep | 'git'
+ 1680  history
+ 1681  history > abc.txt
